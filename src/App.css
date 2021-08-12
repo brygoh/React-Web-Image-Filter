@@ -1,0 +1,52 @@
+.Buttons {
+  width:800px;
+  padding: 10px;
+  display:flex;
+  flex-direction:row;
+  align-self: center;
+  justify-content:space-evenly;
+}
+
+.App {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+}
+
+.Container {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  padding:10px;
+}
+
+.Images {
+  width:500px;
+  height:500px;
+  padding:20px;
+}
+
+.Card {
+  overflow:hidden;
+  box-shadow:0 2px 20px;
+  margin: 20px;
+}
+
+.Button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.Description {
+  padding:10px;
+  font-size:50px;
+  font-weight:bold;
+}
